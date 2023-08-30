@@ -9,7 +9,7 @@ const main = async () => {
     // app.use(compression());
     // app.use('/static', express.static(config.staticFilePath));
     app.use('/apis', (req, res) => {
-        res.send('Hello World!');
+        res.send('Hello World1!');
     });
 
     app.listen(process.env.PORT || port, () => {
