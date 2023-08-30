@@ -8,7 +8,7 @@ const main = async () => {
 
     // app.use(compression());
     // app.use('/static', express.static(config.staticFilePath));
-    app.use('/api', (req, res) => {
+    app.use('/apis', (req, res) => {
         res.send('Hello World!');
     });
 
